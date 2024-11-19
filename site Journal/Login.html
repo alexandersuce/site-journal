@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se Connecter</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1000px;
+            height: 300px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px; /* Ajoute un border-radius */
+            overflow: hidden; /* Assure que le contenu reste à l'intérieur des bords arrondis */
+        }
+        .image-section {
+            flex: 1;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-log {
+            width: 50%;
+            height: auto;
+        }
+        .form-section {
+            flex: 1;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .form-container {
+            width: 100%;
+            max-width: 400px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="text"], input[type="password"] {
+            margin-bottom: 15px;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc; /* Ajoute une bordure légère pour un effet de relief */
+        }
+        input[type="submit"] {
+            padding: 10px;
+            font-size: 16px;
+            background-color: black;
+            border-radius: 10px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="journal.jpg" class="image-log" alt="img">
+        </div>
+        <div class="form-section">
+            <div class="form-container">
+                <h2>Se Connecter</h2>
+                <form>
+                    <input type="text" name="email" placeholder="Adresse email ou numéro" required>
+                    <input type="password" name="password" placeholder="Mot de passe" required>
+                    <input onclick="" type="submit" value="Se Connecter">
+                    <a href="S'inscrire.html">Vous n'avez pas de compte ? S'inscrire.</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
